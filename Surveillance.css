@@ -125,14 +125,14 @@ nav>ul li:hover .sous {
 /* Middle Section */
 
 .MiddleSectionBas {
-    height: 700px;
+    height: 730px;
     width: 100%;
     background-image: url(Image/ImageArrierePlan2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     background-attachment: fixed;
-    padding-top: 10px;
+    padding-top: 1px;
     display: flex;
     justify-content: space-around;
 }
@@ -146,12 +146,11 @@ nav>ul li:hover .sous {
 }
 
 .Bloc1 {
-    height: 550px;
+    height: 600px;
     width: 1000px;
     border-radius: 10px;
     box-shadow: 6px 6px 6px rgb(0, 32, 96);
     background-color: whitesmoke;
-    margin-top: 10px;
     position: relative;
     top: 60px;
     -webkit-animation: Box2 5s;
@@ -213,6 +212,27 @@ nav>ul li:hover .sous {
     margin-top: 60px;
     transform: scale(1);
     transition: transform 400ms;
+}
+
+.Bloc4 {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgb(0, 32, 96);
+    background-color: whitesmoke;
+    margin-top: 60px;
+    transform: scale(1);
+    transition: transform 400ms;
+    margin-left: 60px;
+}
+
+.Bloc4:hover {
+    transform: scale(1.10);
+}
+
+.Bloc4 a {
+    text-decoration: none;
+    color: black;
 }
 
 .Bloc:hover {
@@ -329,13 +349,12 @@ nav>ul li:hover .sous {
 
 #textebandebloc3 {
     height: 22px;
-    padding-left: 200px;
+    padding-left: 170px;
     color: white;
     background-color: rgba(24, 24, 24, 0.8);
 }
 
 .textebloc3 {
-    padding-top: 20px;
     text-align: center;
 }
 
