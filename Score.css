@@ -329,13 +329,12 @@ nav>ul li:hover .sous {
 
 #textebandebloc3 {
     height: 22px;
-    padding-left: 200px;
+    padding-left: 170px;
     color: white;
     background-color: rgba(24, 24, 24, 0.8);
 }
 
 .textebloc3 {
-    padding-top: 20px;
     text-align: center;
 }
 
