@@ -1,0 +1,369 @@
+body {
+    background: linear-gradient(to right, rgb(0, 32, 96), 31%, white, rgb(0, 32, 96));
+    margin: 0;
+}
+
+nav {
+    height: 203px;
+    background: linear-gradient(to right, rgb(0, 32, 96), 31%, white, rgb(0, 32, 96));
+    position: fixed;
+    width: 100%;
+}
+
+#ContenerLogoNav {
+    position: relative;
+    bottom: 138px;
+}
+
+.sousnav {
+    height: 188px;
+}
+
+.LogoCpgd {
+    margin-left: 60px;
+}
+
+.ImageNavDroite {
+    float: right;
+    margin-top: 10px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    color: rgb(161, 77, 7);
+    font-size: 19px;
+    font-family: verdana;
+}
+
+.ImageNavGauche {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+ul {
+    display: flex;
+    float: right;
+}
+
+.Navigation1 {
+    width: 180px;
+    border: 1px solid navy;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 14px;
+    padding-top: 10px;
+    background: linear-gradient(135deg, rgb(0, 32, 96), 80%, white);
+    list-style-type: none;
+}
+
+.Navigation2 {
+    width: 180px;
+    border: 1px solid navy;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 14px;
+    padding-top: 10px;
+    background: linear-gradient(-135deg, rgb(0, 32, 96), 80%, white);
+    list-style-type: none;
+}
+
+.Navigation3 {
+    width: 180px;
+    border: 1px solid navy;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 14px;
+    list-style-type: none;
+    background: linear-gradient(135deg, rgb(0, 32, 96), 80%, white);
+    padding-top: 4px;
+}
+
+.Navigation4 {
+    width: 180px;
+    border: 1px solid navy;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 14px;
+    list-style-type: none;
+    background: linear-gradient(-135deg, rgb(0, 32, 96), 80%, white);
+    padding-top: 4px;
+}
+
+.Navigation5 {
+    width: 180px;
+    border: 1px solid navy;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 14px;
+    list-style-type: none;
+    padding-top: 10px;
+    background: linear-gradient(135deg, rgb(0, 32, 96), 80%, white);
+}
+
+.Navigation6 {
+    width: 180px;
+    border: 1px solid navy;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 14px;
+    list-style-type: none;
+    padding-top: 10px;
+    background: linear-gradient(-135deg, rgb(0, 32, 96), 80%, white);
+    height: 35px;
+}
+
+a:hover {
+    color: rgb(161, 77, 7);
+}
+
+a {
+    color: whitesmoke;
+}
+
+
+/* Haut Section */
+
+.Hautsection {
+    height: 140px;
+    width: 100%;
+    background-image: url(Image/Imagefleche.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 160px;
+}
+
+.textetopsection {
+    height: 30px;
+    width: 180px;
+    padding-top: 10px;
+    padding-left: 30px;
+    color: whitesmoke;
+    font-size: 17px;
+    font-family: Verdana;
+    font-weight: bold;
+    background-color: #0B2F3A;
+    float: right;
+    margin-right: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 100px;
+}
+
+
+/* Middle Section */
+
+.MiddleSectionTop {
+    height: 80px;
+    width: 100%;
+}
+
+.MiddleSectionMiddle {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.PremierBloc {
+    height: 300px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #0B2F3A;
+    ;
+}
+
+.ImageGeo {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.DeuxiemeBloc {
+    height: 300px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #0B2F3A;
+}
+
+.MiddleSectionBas {
+    height: 80px;
+    width: 100%;
+}
+
+
+/* Bas Section */
+
+.BasSection {
+    height: 330px;
+    background-image: url(Image/Imagefleche.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.Bloc {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgb(0, 32, 96);
+    background-color: whitesmoke;
+}
+
+.Imagebloc1 {
+    height: 150px;
+    width: 100%;
+    background-image: url(Image/Imagepuzzle.jpg);
+    background-position: center;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Risk {
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(0, 32, 96);
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+}
+
+#bandetextebloc1 {
+    width: 400px;
+    height: 25px;
+}
+
+#textebandebloc1 {
+    height: 26px;
+    padding-left: 250px;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.8);
+    padding-top: 5px;
+}
+
+.textebloc1 {
+    padding-top: 20px;
+    font-family: verdana;
+    text-align: center;
+}
+
+
+/* bloc 2 */
+
+.Imagebloc2 {
+    height: 150px;
+    width: 100%;
+    background-image: url(Image/Imagereunion.jpg);
+    background-position: center;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.QuiSommesNous {
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(0, 32, 96);
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+}
+
+#bandetextebloc2 {
+    width: 400px;
+    height: 25px;
+}
+
+#textebandebloc2 {
+    height: 26px;
+    padding-left: 200px;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.8);
+    padding-top: 5px;
+}
+
+.textebloc2 {
+    margin-top: 5px;
+    font-family: verdana;
+    text-align: center;
+}
+
+
+/* Bloc 3 */
+
+.Imagebloc3 {
+    height: 150px;
+    width: 100%;
+    background-image: url(Image/Imagefleche2.jpg);
+    background-position: center;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Avantage {
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(0, 32, 96);
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+}
+
+#bandetextebloc3 {
+    width: 400px;
+    height: 25px;
+}
+
+#textebandebloc3 {
+    height: 26px;
+    padding-left: 250px;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.8);
+    padding-top: 5px;
+}
+
+.textebloc3 {
+    padding-top: 20px;
+    font-family: verdana;
+    text-align: center;
+}
+
+footer {
+    height: 150px;
+    background: linear-gradient(to right, rgb(0, 32, 96), 31%, white, rgb(0, 32, 96));
+}
+
+.ContenerFooter {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-right: 250px;
+}
+
+.ColonneFooter {
+    Font-size: 16px;
+}
+
+footer a:hover {
+    color: rgb(161, 77, 7);
+}
+
+.Menufooter {
+    text-decoration: none;
+    color: black;
+}

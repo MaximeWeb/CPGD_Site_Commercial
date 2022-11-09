@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    font-family: verdana;
+    background-image: url(Image/FlecheMenu2.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.ImagePaiement {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.ImagePaiementTop {
+    border-radius: 10px;
+}
+
+.BlocConnectezvous {
+    margin-top: 110px;
+    margin-left: 100px;
+}
+
+.Connectezvous {
+    Font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Connectezvous2 {
+    background-color: rgb(0, 32, 96);
+    width: 300px;
+    color: white;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    margin-top: 0%;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.Connectezvous2 u {
+    font-size: 14px;
+}
+
+Section {
+    margin-top: 5%;
+    height: 210px;
+    background: linear-gradient(to right, rgb(0, 32, 96), 31%, white, rgb(0, 32, 96));
+}
+
+.ImageNavDroite {
+    color: rgb(161, 77, 7);
+    font-family: verdana;
+    text-align: center;
+    margin-left: 30%;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.LogoCpgd {
+    height: 90px;
+    margin-right: 40px;
+}
+
+section ul {
+    display: flex;
+    margin-top: 35px;
+    float: right;
+}
+
+section li {
+    width: 190px;
+    height: 45px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    list-style-type: none;
+    background: linear-gradient(135deg, rgb(0, 32, 96), 80%, white);
+    position: relative;
+    bottom: 13px;
+}
+
+li p {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 11px
+}
+
+a:hover {
+    color: rgb(161, 77, 7);
+}
+
+.FondInverse {
+    background: linear-gradient(-135deg, rgb(0, 32, 96), 80%, white)
+}
+
+section nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer {
+    width: 100%;
+    padding-top: 16%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    padding-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 32, 96);
+}
+
+footer a:hover {
+    color: rgb(161, 77, 7);
+}
