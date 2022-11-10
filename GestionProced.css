@@ -125,114 +125,70 @@ nav>ul li:hover .sous {
 /* Middle Section */
 
 .MiddleSectionBas {
-    height: 700px;
+    height: 750px;
     width: 100%;
     background-image: url(Image/ImageArrierePlan2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     background-attachment: fixed;
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-around;
+    padding-top: 1px;
 }
 
-.d2 {
-    width: 600px;
-    height: 500px;
-    box-shadow: 6px 6px 10px rgb(0, 32, 96);
+.Bloc1 {
+    height: 140px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgb(0, 32, 96);
+    margin-top: 10px;
+}
+
+.TextBloc {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.TextBloc a {
+    text-decoration: none;
+    color: rgb(161, 77, 7);
+}
+
+.TextBloc a:hover {
+    color: black;
+}
+
+.fas {
+    color: rgb(33, 151, 167);
+}
+
+.Imagebloc {
+    height: 140px;
+    width: 100%;
+    background-image: url(Image/th.jfif);
+    background-position: center;
+    padding-top: 1px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Imagebloc p {
+    font-size: 18px;
     background-color: rgb(0, 32, 96);
-    animation: fondu 26s ease-in-out infinite both;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 15px;
-    margin-top: 50px;
-}
-
-.d2:hover {
-    animation-play-state: paused;
-}
-
-@keyframes fondu {
-    0% {
-        background-image: url("Image/Diapo.png");
-    }
-    25% {
-        background-image: url("Image/Diapo2.png");
-    }
-    50% {
-        background-image: url("Image/Diapo3.png");
-    }
-    75% {
-        background-image: url("Image/Diapo4.png");
-    }
-    100% {
-        background-image: url("Image/Diapo5.png");
-    }
-}
-
-.MoovD2 {
-    position: relative;
-    top: 60px;
-    -webkit-animation: Box 5s;
-    -moz-animation: Box 5s;
-    animation: Box 5s;
-}
-
-@keyframes Box {
-    0% {
-        right: 50px;
-    }
-    100% {
-        right: 0px;
-    }
-}
-
-.BlocDroite {
-    height: 500px;
-    width: 600px;
-    margin-top: 50px;
-    border-radius: 15px;
-    background-color: whitesmoke;
-    background-image: url(Image/Imagefleche2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 112%;
-    box-shadow: 6px 6px 10px rgb(0, 32, 96);
-    position: relative;
-    top: 60px;
-    -webkit-animation: Box2 5s;
-    -moz-animation: Box2 5s;
-    animation: Box2 5s;
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 0px;
+    padding: 5px 20px 5px 20px;
 }
 
 @keyframes Box2 {
     0% {
-        left: 50px;
+        left: 100px;
     }
     100% {
         left: 0px;
     }
-}
-
-.BlocDroite p {
-    text-align: justify;
-    padding-top: 1%;
-    font-size: 20px;
-    color: whitesmoke;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.BlocDroite h1 {
-    position: relative;
-    bottom: 25px;
-    background-color: whitesmoke;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    height: 40px;
-    color: rgb(71, 130, 146)
 }
 
 
@@ -371,13 +327,12 @@ nav>ul li:hover .sous {
 
 #textebandebloc3 {
     height: 22px;
-    padding-left: 200px;
+    padding-left: 170px;
     color: white;
     background-color: rgba(24, 24, 24, 0.8);
 }
 
 .textebloc3 {
-    padding-top: 20px;
     text-align: center;
 }
 

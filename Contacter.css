@@ -1,230 +1,180 @@
 body {
-    background: linear-gradient(to right, rgb(0, 32, 96), 31%, white, rgb(0, 32, 96));
     margin: 0;
-}
-
-nav {
-    height: 203px;
-    background: linear-gradient(to right, rgb(0, 32, 96), 31%, white, rgb(0, 32, 96));
-    position: fixed;
-    width: 100%;
-}
-
-#ContenerLogoNav {
-    position: relative;
-    bottom: 138px;
-}
-
-.sousnav {
-    height: 188px;
-}
-
-.LogoCpgd {
-    margin-left: 60px;
-}
-
-.ImageNavDroite {
-    float: right;
-    margin-top: 10px;
-    margin-right: 150px;
-    margin-bottom: 10px;
-    color: rgb(161, 77, 7);
-    font-size: 19px;
     font-family: verdana;
 }
 
-.ImageNavGauche {
-    margin-top: 50px;
-    margin-left: 50px;
-}
-
-ul {
+.TopHeader {
     display: flex;
-    float: right;
+    justify-content: space-around;
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid rgb(139, 164, 212);
+    background-color: whitesmoke;
 }
 
-.Navigation1 {
-    width: 180px;
-    border: 1px solid navy;
-    color: white;
+.Logocpgd {
+    margin-top: 10px;
+    height: 100px;
+    padding-right: 190px;
+}
+
+.TexteTopHeader {
+    display: flex;
+    margin-top: 10px;
+}
+
+.Nouscontacter {
+    padding-right: 30px;
+    color: rgb(0, 32, 96);
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.Seconnecter {
+    color: rgb(0, 32, 96);
+    font-size: 20px;
     text-align: center;
-    text-decoration: none;
-    font-family: verdana;
-    font-size: 14px;
-    padding-top: 10px;
-    background: linear-gradient(135deg, rgb(0, 32, 96), 80%, white);
-    list-style-type: none;
+    border: 1px solid rgb(0, 32, 96);
+    padding: 12px;
+    margin-bottom: 10px;
 }
 
-.Navigation2 {
-    width: 180px;
-    border: 1px solid navy;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: verdana;
-    font-size: 14px;
-    padding-top: 10px;
-    background: linear-gradient(-135deg, rgb(0, 32, 96), 80%, white);
-    list-style-type: none;
+.Seconnecter:hover {
+    background: linear-gradient(to bottom right, rgb(0, 32, 96), whitesmoke);
+    color: whitesmoke;
 }
 
-.Navigation3 {
-    width: 180px;
-    border: 1px solid navy;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: verdana;
-    font-size: 14px;
-    list-style-type: none;
-    background: linear-gradient(135deg, rgb(0, 32, 96), 80%, white);
-    padding-top: 4px;
-}
-
-.Navigation4 {
-    width: 180px;
-    border: 1px solid navy;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: verdana;
-    font-size: 14px;
-    list-style-type: none;
-    background: linear-gradient(-135deg, rgb(0, 32, 96), 80%, white);
-    padding-top: 4px;
-}
-
-.Navigation5 {
-    width: 180px;
-    border: 1px solid navy;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: verdana;
-    font-size: 14px;
-    list-style-type: none;
-    padding-top: 10px;
-    background: linear-gradient(135deg, rgb(0, 32, 96), 80%, white);
-}
-
-.Navigation6 {
-    width: 180px;
-    border: 1px solid navy;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: verdana;
-    font-size: 14px;
-    list-style-type: none;
-    padding-top: 10px;
-    background: linear-gradient(-135deg, rgb(0, 32, 96), 80%, white);
-    height: 35px;
-}
-
-a:hover {
+.Nouscontacter:hover {
     color: rgb(161, 77, 7);
 }
 
-a {
-    color: whitesmoke;
+.TopHeader a {
+    text-decoration: none;
 }
 
+.cadreconnection {
+    border: 1px solid rgb(0, 32, 96);
+    height: 65px;
+    width: 200px;
+}
 
-/* Haut Section */
-
-.Hautsection {
-    height: 140px;
+.BasHeader {
+    padding-top: 1px;
+    height: 120px;
     width: 100%;
-    background-image: url(Image/Imagefleche.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 160px;
+    border-bottom: 1px solid rgb(139, 164, 212);
+    background: linear-gradient(to bottom right, rgb(0, 32, 96), whitesmoke);
 }
 
-.textetopsection {
-    height: 30px;
-    width: 180px;
-    padding-top: 10px;
-    padding-left: 30px;
+ul a {
+    text-decoration: none;
+}
+
+.BasHeader ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 33px;
+}
+
+.BasHeader li {
+    padding-right: 50px;
+    font-size: 20px;
+    height: 100px;
     color: whitesmoke;
-    font-size: 17px;
-    font-family: Verdana;
-    font-weight: bold;
-    background-color: #0B2F3A;
+}
+
+li:hover {
+    color: rgb(161, 77, 7);
+}
+
+nav>ul li:hover .sous {
+    display: block;
+}
+
+.sous {
+    display: none;
+    position: absolute;
+    left: 0px;
+    padding-top: 5px;
+    width: 100%;
+    height: 70px;
+    padding-left: 0px;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.sous a {
+    text-decoration: none;
+    color: rgb(0, 32, 96);
+    margin-left: 70px;
+}
+
+.sous a:hover {
+    color: rgb(161, 77, 7);
+}
+
+.imagecpgd {
+    height: 98px;
+    width: 120px;
     float: right;
-    margin-right: 60px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    margin-top: 100px;
+    margin-right: 20px;
 }
 
 
 /* Middle Section */
 
-.MiddleSectionTop {
-    height: 80px;
-    width: 100%;
-}
-
-.MiddleSectionMiddle {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.PremierBloc {
-    height: 300px;
-    width: 40%;
-    border-radius: 10px;
-    background-color: #0B2F3A;
-    ;
-}
-
-.ImageGeo {
-    height: 200px;
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.DeuxiemeBloc {
-    height: 300px;
-    width: 40%;
-    border-radius: 10px;
-    background-color: #0B2F3A;
-}
-
 .MiddleSectionBas {
-    height: 80px;
+    height: 730px;
     width: 100%;
-}
-
-
-/* Bas Section */
-
-.BasSection {
-    height: 330px;
-    background-image: url(Image/Imagefleche.jpg);
-    background-position: center;
+    background-image: url(Image/ImageArrierePlan2.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: 100%;
+    background-attachment: fixed;
+    padding-top: 1px;
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
 }
 
-.Bloc {
-    height: 300px;
-    width: 400px;
+.Score {
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(0, 32, 96);
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+}
+
+.Bloc1 {
+    height: 600px;
+    width: 1000px;
     border-radius: 10px;
     box-shadow: 6px 6px 6px rgb(0, 32, 96);
     background-color: whitesmoke;
+    position: relative;
+    top: 90px;
+    -webkit-animation: Box2 5s;
+    -moz-animation: Box2 5s;
+    animation: Box2 5s;
 }
 
-.Imagebloc1 {
-    height: 150px;
+.textebloc {
+    text-align: center;
+}
+
+.textbloc {
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.textebloc strong {
+    font-size: 17px;
+    color: rgb(0, 32, 96);
+}
+
+.Imagebloc {
+    height: 220px;
     width: 100%;
     background-image: url(Image/Imagepuzzle.jpg);
     background-position: center;
@@ -233,79 +183,97 @@ a {
     border-top-left-radius: 10px;
 }
 
-.Risk {
-    border: 1px solid black;
-    font-size: 24px;
-    padding: 5px 20px 5px 20px;
-    background-color: rgb(0, 32, 96);
-    color: whitesmoke;
-    border-top-left-radius: 10px;
+@keyframes Box2 {
+    0% {
+        left: 200px;
+    }
+    100% {
+        left: 0px;
+    }
 }
 
-#bandetextebloc1 {
-    width: 400px;
-    height: 25px;
+.flexbox {
+    display: flex;
 }
 
-#textebandebloc1 {
-    height: 26px;
-    padding-left: 250px;
-    color: white;
-    background-color: rgba(24, 24, 24, 0.8);
-    padding-top: 5px;
+.contener {
+    width: 60%;
 }
 
-.textebloc1 {
-    padding-top: 20px;
-    font-family: verdana;
-    text-align: center;
+.contener1 {
+    width: 40%;
 }
 
-
-/* bloc 2 */
-
-.Imagebloc2 {
-    height: 150px;
+.ImageGM {
+    height: 370px;
     width: 100%;
-    background-image: url(Image/Imagereunion.jpg);
+    background-image: url(Image/SnipImage.JPG);
     background-position: center;
-    padding-top: 5px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
 }
 
-.QuiSommesNous {
-    border: 1px solid black;
-    font-size: 24px;
-    padding: 5px 20px 5px 20px;
-    background-color: rgb(0, 32, 96);
-    color: whitesmoke;
-    border-top-left-radius: 10px;
+.contener1 p {
+    color: rgb(0, 32, 96);
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
-#bandetextebloc2 {
+.contener1 a {
+    text-decoration: none;
+}
+
+
+/* Bas Section */
+
+.BasSection {
+    height: 430px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    background: linear-gradient(to bottom right, rgb(0, 32, 96), whitesmoke);
+}
+
+.Bloc {
+    height: 300px;
     width: 400px;
-    height: 25px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgb(0, 32, 96);
+    background-color: whitesmoke;
+    margin-top: 60px;
+    transform: scale(1);
+    transition: transform 400ms;
 }
 
-#textebandebloc2 {
-    height: 26px;
-    padding-left: 200px;
-    color: white;
-    background-color: rgba(24, 24, 24, 0.8);
-    padding-top: 5px;
+.Bloc4 {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgb(0, 32, 96);
+    background-color: whitesmoke;
+    margin-top: 60px;
+    transform: scale(1);
+    transition: transform 400ms;
+    margin-left: 60px;
 }
 
-.textebloc2 {
-    margin-top: 5px;
-    font-family: verdana;
-    text-align: center;
+.Bloc4:hover {
+    transform: scale(1.10);
 }
 
+.Bloc4 a {
+    text-decoration: none;
+    color: black;
+}
 
-/* Bloc 3 */
+.Bloc:hover {
+    transform: scale(1.10);
+}
 
-.Imagebloc3 {
+.Bloc a {
+    text-decoration: none;
+    color: black;
+}
+
+.Imagebloc1 {
     height: 150px;
     width: 100%;
     background-image: url(Image/Imagefleche2.jpg);
@@ -315,9 +283,87 @@ a {
     border-top-left-radius: 10px;
 }
 
-.Avantage {
-    border: 1px solid black;
-    font-size: 24px;
+.Risk {
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(0, 32, 96);
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+}
+
+#bandetextebloc1 {
+    width: 400px;
+    height: 25px;
+    margin-top: 104px;
+}
+
+#textebandebloc1 {
+    height: 22px;
+    padding-left: 220px;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.8);
+}
+
+.textebloc1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+/* bloc 2 */
+
+.Imagebloc2 {
+    height: 150px;
+    width: 100%;
+    background-image: url(Image/Reunion.jpg);
+    background-position: center;
+    background-size: 102%;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Accesclient {
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(0, 32, 96);
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+}
+
+#bandetextebloc2 {
+    width: 400px;
+    height: 25px;
+    margin-top: 104px;
+}
+
+#textebandebloc2 {
+    height: 22px;
+    padding-left: 200px;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.8);
+}
+
+.textebloc2 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+/* Bloc 3 */
+
+.Imagebloc3 {
+    height: 150px;
+    width: 100%;
+    background-image: url(Image/cb.png);
+    background-position: center;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Creance {
+    font-size: 20px;
     padding: 5px 20px 5px 20px;
     background-color: rgb(0, 32, 96);
     color: whitesmoke;
@@ -327,43 +373,65 @@ a {
 #bandetextebloc3 {
     width: 400px;
     height: 25px;
+    margin-top: 104px;
 }
 
 #textebandebloc3 {
-    height: 26px;
-    padding-left: 250px;
+    height: 22px;
+    padding-left: 170px;
     color: white;
     background-color: rgba(24, 24, 24, 0.8);
-    padding-top: 5px;
 }
 
 .textebloc3 {
-    padding-top: 20px;
-    font-family: verdana;
     text-align: center;
 }
 
-footer {
-    height: 150px;
-    background: linear-gradient(to right, rgb(0, 32, 96), 31%, white, rgb(0, 32, 96));
+.Dernieresection {
+    height: 300px;
+    width: 100%;
+    background-image: url(Image/paysage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding-top: 20px;
 }
 
-.ContenerFooter {
+.Dernieresection p {
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: whitesmoke;
+    padding-top: 1px;
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
-    padding-right: 250px;
 }
 
-.ColonneFooter {
-    Font-size: 16px;
+footer p {
+    padding-top: 20px;
+}
+
+footer a {
+    color: black;
+    text-decoration-line: none;
 }
 
 footer a:hover {
-    color: rgb(161, 77, 7);
-}
-
-.Menufooter {
-    text-decoration: none;
-    color: black;
+    color: rgb(0, 32, 96);
+    border-bottom: 2px solid rgb(0, 32, 96);
+    height: 60px;
 }

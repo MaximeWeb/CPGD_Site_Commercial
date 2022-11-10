@@ -125,7 +125,7 @@ nav>ul li:hover .sous {
 /* Middle Section */
 
 .MiddleSectionBas {
-    height: 730px;
+    height: 750px;
     width: 100%;
     background-image: url(Image/ImageArrierePlan2.jpg);
     background-repeat: no-repeat;
@@ -133,21 +133,33 @@ nav>ul li:hover .sous {
     background-size: 100%;
     background-attachment: fixed;
     padding-top: 1px;
-    display: flex;
-    justify-content: space-around;
 }
 
 .Bloc1 {
     height: 140px;
-    width: 1000px;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 6px 6px 6px rgb(0, 32, 96);
-    background-color: whitesmoke;
-    position: relative;
-    top: 60px;
-    -webkit-animation: Box2 5s;
-    -moz-animation: Box2 5s;
-    animation: Box2 5s;
+    margin-top: 10px;
+}
+
+.TextBloc {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.TextBloc a {
+    text-decoration: none;
+    color: rgb(161, 77, 7);
+}
+
+.TextBloc a:hover {
+    color: black;
+}
+
+.fas {
+    color: rgb(33, 151, 167);
 }
 
 .Imagebloc {
@@ -161,14 +173,18 @@ nav>ul li:hover .sous {
 }
 
 .Imagebloc p {
-    color: whitesmoke;
-    padding-left: 20px;
     font-size: 18px;
+    background-color: rgb(0, 32, 96);
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 0px;
+    padding: 5px 20px 5px 20px;
 }
 
 @keyframes Box2 {
     0% {
-        left: 200px;
+        left: 100px;
     }
     100% {
         left: 0px;
@@ -311,13 +327,12 @@ nav>ul li:hover .sous {
 
 #textebandebloc3 {
     height: 22px;
-    padding-left: 200px;
+    padding-left: 170px;
     color: white;
     background-color: rgba(24, 24, 24, 0.8);
 }
 
 .textebloc3 {
-    padding-top: 20px;
     text-align: center;
 }
 

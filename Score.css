@@ -137,6 +137,10 @@ nav>ul li:hover .sous {
     justify-content: space-around;
 }
 
+.fas {
+    color: rgb(33, 151, 167);
+}
+
 .Score {
     font-size: 20px;
     padding: 5px 20px 5px 20px;
@@ -153,7 +157,7 @@ nav>ul li:hover .sous {
     background-color: whitesmoke;
     margin-top: 10px;
     position: relative;
-    top: 60px;
+    top: 80px;
     -webkit-animation: Box2 5s;
     -moz-animation: Box2 5s;
     animation: Box2 5s;
