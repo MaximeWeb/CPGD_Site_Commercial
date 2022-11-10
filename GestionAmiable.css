@@ -127,7 +127,7 @@ nav>ul li:hover .sous {
 .MiddleSectionBas {
     height: 750px;
     width: 100%;
-    background-image: url(Image/ImageArrierePlan2.jpg);
+    background-image: url(Image/FlecheMenu1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -180,6 +180,7 @@ nav>ul li:hover .sous {
     border-top-right-radius: 10px;
     margin-top: 0px;
     padding: 5px 20px 5px 20px;
+    text-align: center;
 }
 
 @keyframes Box2 {
