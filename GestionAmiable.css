@@ -167,17 +167,12 @@ nav>ul li:hover .sous {
     width: 100%;
     background-image: url(Image/Imagefleche2.jpg);
     background-position: center;
-    padding-top: 1px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
 }
 
 .Imagebloc p {
     font-size: 18px;
     background-color: rgb(0, 32, 96);
     color: whitesmoke;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     margin-top: 0px;
     padding: 5px 20px 5px 20px;
     text-align: center;

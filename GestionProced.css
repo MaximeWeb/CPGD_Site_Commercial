@@ -165,19 +165,13 @@ nav>ul li:hover .sous {
 .Imagebloc {
     height: 140px;
     width: 100%;
-    background-image: url(Image/th.jfif);
-    background-position: center;
-    padding-top: 1px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    background-image: url(Image/ImagePuzzle.jpg);
 }
 
 .Imagebloc p {
     font-size: 18px;
     background-color: rgb(0, 32, 96);
     color: whitesmoke;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     margin-top: 0px;
     text-align: center;
     padding: 5px 20px 5px 20px;

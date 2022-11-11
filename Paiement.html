@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="shortcut icon" type="image/x-icon" href="Image/favicon.PNG">
-    <link rel="stylesheet" href="Relance.css" />
+    <link rel="stylesheet" href="Paiement.css" />
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="ResponsivSurv.css" />
-    <Title>CPGD - Relance amiable</Title>
+    <Title>CPGD - Paiement sécurisé</Title>
 </head>
 
 <body>
@@ -51,7 +51,7 @@
                         </div>
                     </li>
                     <a href="Partenaires.html">
-                        <li>Nos partenaires</li>
+                        <li>Partenaire - Liens Utiles</li>
                     </a>
 
                 </ul>
@@ -71,23 +71,25 @@
 
             <div class="Bloc1">
 
-                <div class="Imagebloc">
-                    <strong class="Score">Relance Amiable</strong>
 
+                <strong class="Score">Paiement par CB sécurisé</strong>
+
+                <div class="Formulaire">
+                    <form class="CaseFormulaire" method="post" action="traitement.php">
+                        <p style="margin-left:91px;"> Nom : <input type="text" name="nom" required> *</p>
+                        <p style="margin-left:67px;"> Prénom : <input type="text" name="prénom" required> *</p>
+                        <p style="margin-left:43px;"> N° Dossier : <input type="number" name="N° Dossier" required> *</p>
+                        <p style="margin-left:47px;"> Identifiant : <input type="number" name="Identifiant" required> *</p>
+                        <p style="margin-left:82px;"> E-Mail : <input type="email" name="Mail"></p>
+                        <p> Montant à payer : <input type="number" name="Montant à payer" required> *</p>
+                        <p><input type="checkbox" name="colors" value="blue" /> Je souhaite recevoir une confirmation de mon paiement par e-mail</p>
+                        <p><i>Les champs signalés par une * sont obligatoires</i> </p>
+
+                        <input class="BoutonValider" type="submit" value="Valider" />
+
+                    </form><br />
 
                 </div>
-                <p class="textebloc">
-                    <strong>Cumulez la pression du "changement de casquette" et de la rapidité de la relance pour récupurer votre argent tout en conservant votre client ! </strong><br/><br/></p>
-                <p class="textbloc"> CPGD met à votre disposition via son site CPGDNET un outil de relance précieux dans la gestion de vos premières relances à vos clients débiteurs ou dans la gestion de votre balance agée.<br/><br/>
-                    <strong> Ensemble nous étudions un texte adapté à vos propres besoins et mettons à votre
-                  disposition un agenda vous permettant :</strong><br/>
-                    <i class="fas fa-hand-point-right" style="padding-left:24px;"></i><i>De gérer vos retards de paiement (planning, actions, téléphone, etc.)</i><br/>
-                    <i class="fas fa-hand-point-right" style="padding-left:24px;"></i><i>Le suivi de vos acomptes.</i><br/>
-                    <i class="fas fa-hand-point-right" style="padding-left:24px;"></i><i>L'envoi d'une lettre à notre entête précisant à votre client débiteur que le non règlement immédiat de sa dette entraînera le passage de son dossier dans nos services en y incluant les futurs frais et intérêts à venir (votre client ne pourra que constater son intérêt à un prompt règlement.</i><br/><br/>                    N'attendez plus pour tester l'impact certain de loutil « Relances Amiables »
-                </p>
-
-
-
 
             </div>
 

@@ -155,6 +155,36 @@ nav>ul li:hover .sous {
     animation: Box 5s;
 }
 
+.BlocGauche p strong {
+    color: whitesmoke;
+    font-size: 32px;
+    padding-left: 30%;
+}
+
+.BlocGauche p {
+    color: whitesmoke;
+    padding-left: 10px;
+}
+
+.ImageAltares {
+    height: 100px;
+    width: 400px;
+    background-image: url(Image/Capture.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 80px;
+}
+
+.ImageIntuiz {
+    height: 100px;
+    width: 400px;
+    background-image: url(Image/LogoIntuiz.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 90px;
+    margin-top: 160px;
+}
+
 @keyframes Box {
     0% {
         right: 50px;
@@ -170,7 +200,7 @@ nav>ul li:hover .sous {
     margin-top: 50px;
     border-radius: 15px;
     background-color: whitesmoke;
-    background-image: url(Image/Imagefleche2.jpg);
+    background-image: url(Image/FlecheMenu1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 112%;
@@ -191,23 +221,25 @@ nav>ul li:hover .sous {
     }
 }
 
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ImagePartenaire {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height: 55px;
+    width: 100px;
+}
+
 .BlocDroite p {
     text-align: justify;
     padding-top: 1%;
     font-size: 20px;
-    color: whitesmoke;
     padding-left: 2%;
     padding-right: 2%;
-}
-
-.BlocDroite h1 {
-    position: relative;
-    bottom: 25px;
-    background-color: whitesmoke;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    height: 40px;
-    color: rgb(71, 130, 146)
+    color: rgb(0, 32, 96);
 }
 
 

@@ -125,62 +125,42 @@ nav>ul li:hover .sous {
 /* Middle Section */
 
 .MiddleSectionBas {
-    height: 730px;
+    height: 700px;
     width: 100%;
     background-image: url(Image/ImageArrierePlan2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     background-attachment: fixed;
-    padding-top: 1px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-around;
 }
 
 .Score {
-    font-size: 20px;
-    padding: 5px 20px 5px 20px;
+    font-size: 25px;
+    padding: 0px 20px 5px 20px;
     background-color: rgb(0, 32, 96);
     color: whitesmoke;
     border-top-left-radius: 10px;
 }
 
 .Bloc1 {
-    height: 600px;
+    height: 550px;
     width: 1000px;
-    border-radius: 10px;
-    box-shadow: 6px 6px 6px rgb(0, 32, 96);
+    margin-top: 50px;
+    border-radius: 15px;
     background-color: whitesmoke;
+    background-image: url(Image/FlecheMenu1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    box-shadow: 6px 6px 10px rgb(0, 32, 96);
     position: relative;
-    top: 90px;
+    top: 60px;
     -webkit-animation: Box2 5s;
     -moz-animation: Box2 5s;
     animation: Box2 5s;
-}
-
-.textebloc {
-    text-align: center;
-}
-
-.textbloc {
-    text-align: justify;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.textebloc strong {
-    font-size: 17px;
-    color: rgb(0, 32, 96);
-}
-
-.Imagebloc {
-    height: 220px;
-    width: 100%;
-    background-image: url(Image/Imagepuzzle.jpg);
-    background-position: center;
-    padding-top: 5px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
 }
 
 @keyframes Box2 {
@@ -192,38 +172,17 @@ nav>ul li:hover .sous {
     }
 }
 
-.flexbox {
-    display: flex;
+.Formulaire {
+    margin-left: 30%;
+    margin-top: 10%
 }
 
-.contener {
-    width: 60%;
+.Formulaire p {
+    text-align: justify;
 }
 
-iframe {
-    height: 370px;
-}
-
-.contener1 {
-    width: 40%;
-}
-
-.ImageGM {
-    height: 370px;
-    width: 100%;
-    background-image: url(Image/SnipImage.JPG);
-    background-position: center;
-}
-
-.contener1 p {
-    color: rgb(0, 32, 96);
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 30px;
-}
-
-.contener1 a {
-    color: rgb(0, 32, 96)
+.BoutonValider {
+    margin-left: 200px;
 }
 
 
@@ -248,27 +207,6 @@ iframe {
     transition: transform 400ms;
 }
 
-.Bloc4 {
-    height: 300px;
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: 6px 6px 6px rgb(0, 32, 96);
-    background-color: whitesmoke;
-    margin-top: 60px;
-    transform: scale(1);
-    transition: transform 400ms;
-    margin-left: 60px;
-}
-
-.Bloc4:hover {
-    transform: scale(1.10);
-}
-
-.Bloc4 a {
-    text-decoration: none;
-    color: black;
-}
-
 .Bloc:hover {
     transform: scale(1.10);
 }
@@ -281,7 +219,7 @@ iframe {
 .Imagebloc1 {
     height: 150px;
     width: 100%;
-    background-image: url(Image/Imagefleche2.jpg);
+    background-image: url(Image/Imagepuzzle.jpg);
     background-position: center;
     padding-top: 5px;
     border-top-right-radius: 10px;
@@ -438,5 +376,5 @@ footer a {
 footer a:hover {
     color: rgb(0, 32, 96);
     border-bottom: 2px solid rgb(0, 32, 96);
-    height: 60px;
+    margin-bottom: 40px;
 }
