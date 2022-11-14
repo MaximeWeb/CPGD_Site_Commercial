@@ -172,8 +172,16 @@ nav>ul li:hover .sous {
     }
 }
 
+.Formulaire p strong {
+    color: rgb(161, 77, 7);
+}
+
+.Formulaire i {
+    font-size: 13px;
+}
+
 .Formulaire {
-    margin-left: 30%;
+    margin-left: 25%;
     margin-top: 10%
 }
 

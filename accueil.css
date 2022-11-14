@@ -1,9 +1,12 @@
 body {
     margin: 0px;
+    height: auto;
+    width: auto;
     font-family: verdana;
-    background-image: url(Image/FlecheMenu2.png);
+    background-image: url(Image/FlecheMenu3.png);
     background-position: center;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 header {
@@ -50,9 +53,10 @@ header a {
     font-size: 14px;
 }
 
-Section {
+section {
     margin-top: 5%;
     height: 210px;
+    width: 100%;
     background: linear-gradient(to right, rgb(0, 32, 96), 31%, white, rgb(0, 32, 96));
 }
 
@@ -124,4 +128,144 @@ footer a {
 
 footer a:hover {
     color: rgb(161, 77, 7);
+}
+
+
+/* Responsiv TABLETTE */
+
+@media(min-width: 961px) and (max-width :1366px) {
+    body {
+        width: auto;
+        background-image: url(Image/FlecheMenu2.png);
+    }
+    .ImageNavDroite {
+        margin-left: 5%
+    }
+    .BlocConnectezvous {
+        margin-left: 30px;
+    }
+    section {
+        height: 350px;
+    }
+    section ul {
+        float: none;
+        margin-left: 12%;
+    }
+    .ResponsivTabletteLI {
+        position: relative;
+        top: 100px;
+        right: 660px;
+    }
+}
+
+@media(min-width: 712px) and (max-width :960px) {
+    body {
+        width: auto;
+        background-image: url(Image/FlecheMenu2.png);
+    }
+    .ImageNavDroite {
+        margin-left: 5%
+    }
+    .BlocConnectezvous {
+        margin-left: 30px;
+    }
+    section {
+        height: 350px;
+    }
+    section ul {
+        float: none;
+    }
+    section li {
+        width: 170px;
+    }
+    .ResponsivTabletteLI {
+        position: relative;
+        top: 100px;
+        right: 590px;
+    }
+}
+
+
+/* Responsiv Mobile */
+
+@media(min-width: 412px) and (max-width :711px) {
+    body {
+        width: auto;
+        background: none;
+        margin: 0%;
+    }
+    header {
+        flex-direction: column;
+    }
+    .BlocConnectezvous {
+        margin: auto;
+    }
+    .ImagePaiement {
+        display: none;
+    }
+    .ImageNavDroite {
+        margin: auto;
+    }
+    section {
+        height: 170px;
+        background-color: whitesmoke;
+    }
+    section ul {
+        flex-direction: column;
+        float: none;
+        margin-left: 23%;
+        margin-top: 10%;
+    }
+    footer {
+        flex-direction: column;
+        margin-top: 450px;
+        font-size: 14px;
+        background-color: rgb(0, 32, 96);
+        padding-top: 5%;
+        color: whitesmoke;
+    }
+    footer a {
+        color: whitesmoke;
+    }
+}
+
+@media(max-width: 411px) {
+    body {
+        width: auto;
+        background: none;
+        margin: 0%;
+    }
+    header {
+        flex-direction: column;
+    }
+    .BlocConnectezvous {
+        margin: auto;
+    }
+    .ImagePaiement {
+        display: none;
+    }
+    .ImageNavDroite {
+        margin: auto;
+    }
+    section {
+        height: 170px;
+        background-color: whitesmoke;
+    }
+    section ul {
+        flex-direction: column;
+        float: none;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    footer {
+        flex-direction: column;
+        margin-top: 450px;
+        font-size: 14px;
+        background-color: rgb(0, 32, 96);
+        padding-top: 5%;
+        color: whitesmoke;
+    }
+    footer a {
+        color: whitesmoke;
+    }
 }

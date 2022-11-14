@@ -76,16 +76,18 @@
 
                 <div class="Formulaire">
                     <form class="CaseFormulaire" method="post" action="traitement.php">
-                        <p style="margin-left:91px;"> Nom : <input type="text" name="nom" required> *</p>
-                        <p style="margin-left:67px;"> Prénom : <input type="text" name="prénom" required> *</p>
-                        <p style="margin-left:43px;"> N° Dossier : <input type="number" name="N° Dossier" required> *</p>
-                        <p style="margin-left:47px;"> Identifiant : <input type="number" name="Identifiant" required> *</p>
-                        <p style="margin-left:82px;"> E-Mail : <input type="email" name="Mail"></p>
-                        <p> Montant à payer : <input type="number" name="Montant à payer" required> *</p>
-                        <p><input type="checkbox" name="colors" value="blue" /> Je souhaite recevoir une confirmation de mon paiement par e-mail</p>
-                        <p><i>Les champs signalés par une * sont obligatoires</i> </p>
 
-                        <input class="BoutonValider" type="submit" value="Valider" />
+                        <p style="margin-left:100px;"><strong> Nom : <input type="text" name="nom" required> *</strong></p>
+                        <p style="margin-left:72px;"><strong> Prénom : <input type="text" name="prénom" required> *</strong></p>
+                        <p style="margin-left:49px;"><strong> N° Dossier : <input type="number" name="N° Dossier" required> *</strong></p>
+                        <p style="margin-left:47px;"><strong> Identifiant : <input type="number" name="Identifiant" required> *</strong></p>
+                        <p style="margin-left:95px;"> E-Mail : <input type="email" name="Mail"></p>
+                        <p><strong>    Montant à payer : <input type="number" name="Montant à payer" required> * </strong><i>en € (si virgule, utiliser le *.* - exemple: 100.50)</i>
+                            <p><input type="checkbox" name="colors" value="blue" /> Je souhaite recevoir une confirmation de mon paiement par e-mail</p>
+                            <p><i>Les champs signalés par une * sont obligatoires<br/> 
+                            Après l'envoi de ce formulaire, vous serez redirigé vers le site sécurisé de NOM_BANQUE</i> </p>
+
+                            <input class="BoutonValider" type="submit" value="Valider" />
 
                     </form><br />
 
