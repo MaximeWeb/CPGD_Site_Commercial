@@ -380,3 +380,17 @@ footer a:hover {
     border-bottom: 2px solid rgb(0, 32, 96);
     height: 60px;
 }
+
+
+/* Responsiv TABLETTE */
+
+@media(min-width: 961px) and (max-width :1366px) {}
+
+@media(min-width: 712px) and (max-width :960px) {}
+
+
+/* Responsiv Mobile */
+
+@media(min-width: 412px) and (max-width :711px) {}
+
+@media(max-width: 411px) {}
