@@ -625,14 +625,17 @@ footer a:hover {
     #textebandebloc1 {
         text-align: right;
         padding-right: 10px;
+        padding-left: 10px;
     }
     #textebandebloc2 {
         text-align: right;
         padding-right: 10px;
+        padding-left: 10px;
     }
     #textebandebloc3 {
         text-align: right;
         padding-right: 10px;
+        padding-left: 10px;
     }
     footer p {
         font-size: 10px;

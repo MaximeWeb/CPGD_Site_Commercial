@@ -45,9 +45,11 @@
                     </a>
                     <li>Gestion des impayés
                         <div class="sous">
-                            <a href="GestionAmiable.html">Gestion amiable et judiciaire des impayés</a>
-                            <a href="GestionProced.html">Gestion des Procédures collectives</a>
-                            <a href="Relance.html">Relance Amiable</a>
+                            <div class="responsiv">
+                                <a href="GestionAmiable.html">Gestion amiable et judiciaire des impayés</a>
+                                <a href="GestionProced.html">Gestion des Procédures collectives</a>
+                                <a href="Relance.html">Relance Amiable</a>
+                            </div>
                         </div>
                     </li>
                     <a href="Partenaires.html">
@@ -77,14 +79,14 @@
                 <div class="Formulaire">
                     <form class="CaseFormulaire" method="post" action="traitement.php">
 
-                        <p style="margin-left:100px;"><strong> Nom : <input type="text" name="nom" required> *</strong></p>
-                        <p style="margin-left:72px;"><strong> Prénom : <input type="text" name="prénom" required> *</strong></p>
-                        <p style="margin-left:49px;"><strong> N° Dossier : <input type="number" name="N° Dossier" required> *</strong></p>
-                        <p style="margin-left:47px;"><strong> Identifiant : <input type="number" name="Identifiant" required> *</strong></p>
-                        <p style="margin-left:95px;"> E-Mail : <input type="email" name="Mail"></p>
+                        <p class="responsivnom" style="margin-left:100px;"><strong> Nom : <input type="text" name="nom" required> *</strong></p>
+                        <p class="responsivprenom" style="margin-left:72px;"><strong> Prénom : <input type="text" name="prénom" required> *</strong></p>
+                        <p class="responsivdossier" style="margin-left:49px;"><strong> N° Dossier : <input type="number" name="N° Dossier" required> *</strong></p>
+                        <p class="responsividentifiant" style="margin-left:47px;"><strong> Identifiant : <input type="number" name="Identifiant" required> *</strong></p>
+                        <p class="responsivemail" style="margin-left:95px;"> E-Mail : <input type="email" name="Mail"></p>
                         <p><strong>    Montant à payer : <input type="number" name="Montant à payer" required> * </strong><i>en € (si virgule, utiliser le *.* - exemple: 100.50)</i>
-                            <p><input type="checkbox" name="colors" value="blue" /> Je souhaite recevoir une confirmation de mon paiement par e-mail</p>
-                            <p><i>Les champs signalés par une * sont obligatoires<br/> 
+                            <p class="responsivbloc1"><input type="checkbox" name="colors" value="blue" /> Je souhaite recevoir une confirmation de mon paiement par e-mail</p>
+                            <p class="responsivbloc1"><i>Les champs signalés par une * sont obligatoires<br/> 
                             Après l'envoi de ce formulaire, vous serez redirigé vers le site sécurisé Sherlock’s de LCL_BANQUE</i> </p>
 
                             <input class="BoutonValider" type="submit" value="Valider" />
@@ -131,7 +133,7 @@
                     <div class="Imagebloc2">
                         <strong class="Accesclient">Acces Client </strong>
 
-                        <div id="bandetextebloc2">
+                        <div id="bandetextebloc1">
 
                             <div id="textebandebloc2">
                                 Connectez vous
@@ -154,7 +156,7 @@
                     <div class="Imagebloc3">
                         <strong class="Creance">Reglez votre créance </strong>
 
-                        <div id="bandetextebloc3">
+                        <div id="bandetextebloc1">
 
                             <div id="textebandebloc3">
                                 Acces Paiement CB sécurisé

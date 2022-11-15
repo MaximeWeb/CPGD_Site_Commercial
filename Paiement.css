@@ -390,15 +390,363 @@ footer a:hover {
 
 /* Responsiv TABLETTE */
 
-@media(min-width: 1101px) and (max-width :1366px) {}
+@media(min-width: 1220px) and (max-width :1366px) {
+    .Bloc4 {
+        margin-left: 0px;
+    }
+}
 
-@media(min-width: 961px) and (max-width :1100px) {}
+@media(min-width:767px) and (max-width :1220px) {
+    body {
+        background-color: #ceced0;
+    }
+    .Logocpgd {
+        height: 80px;
+        margin-top: 20px;
+    }
+    .Seconnecter {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .Nouscontacter {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .BasHeader li {
+        font-size: 15px;
+        padding-right: 40px;
+    }
+    .sous a {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .Bloc1 {
+        position: initial;
+        margin-top: 50px;
+        width: 700px;
+        height: 550px;
+        background-color: #d7d9d6;
+    }
+    .Formulaire {
+        margin-left: 15%;
+        margin-top: 10%
+    }
+    .Formulaire p {
+        text-align: justify;
+    }
+    .responsivbloc1 {
+        position: relative;
+        right: 50px;
+    }
+    .responsivnom {
+        position: relative;
+        left: 10px;
+    }
+    .responsivprenom {
+        position: relative;
+        left: 10px;
+    }
+    .responsivdossier {
+        position: relative;
+        left: 10px;
+    }
+    .responsividentifiant {
+        position: relative;
+        left: 10px;
+    }
+    .responsivemail {
+        position: relative;
+        left: 10px;
+    }
+    .BoutonValider {
+        margin-left: 200px;
+    }
+    .MiddleSectionBas {
+        background-position: top;
+        height: 650px;
+    }
+    .BasSection {
+        height: 1200px;
+        flex-direction: column;
+    }
+    .Bloc {
+        margin: auto;
+        width: 700px;
+    }
+    .Bloc4 {
+        margin: auto;
+        width: 700px;
+    }
+    #bandetextebloc1 {
+        width: 100%;
+    }
+    #textebandebloc1 {
+        text-align: right;
+        padding-right: 10px;
+    }
+    #textebandebloc2 {
+        text-align: right;
+        padding-right: 10px;
+    }
+    #textebandebloc3 {
+        text-align: right;
+        padding-right: 10px;
+    }
+    footer p {
+        font-size: 14px;
+        padding-top: 30px;
+    }
+}
 
-@media(min-width: 712px) and (max-width :960px) {}
+@media(min-width:521px) and (max-width :767px) {
+    body {
+        background-color: #ceced0;
+    }
+    .Logocpgd {
+        height: 60px;
+        margin-top: 30px;
+        padding-right: 20px;
+    }
+    .Seconnecter {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .Nouscontacter {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .BasHeader {
+        height: 100px;
+    }
+    .BasHeader li {
+        font-size: 11px;
+        padding-right: 15px;
+    }
+    .Bloc1 {
+        position: initial;
+        margin-top: 50px;
+        width: 480px;
+        height: 510px;
+        background-color: #d7d9d6;
+    }
+    .Score {
+        font-size: 17px;
+    }
+    .Formulaire {
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-right: 5%;
+    }
+    .Formulaire p {
+        text-align: justify;
+    }
+    .BoutonValider {
+        margin-left: 200px;
+    }
+    .responsivnom {
+        position: relative;
+        left: 14px;
+    }
+    .responsivprenom {
+        position: relative;
+        left: 14px;
+    }
+    .responsivdossier {
+        position: relative;
+        left: 14px;
+    }
+    .responsividentifiant {
+        position: relative;
+        left: 14px;
+    }
+    .responsivemail {
+        position: relative;
+        left: 14px;
+    }
+    .MiddleSectionBas {
+        background-position: top;
+        height: 630px;
+    }
+    .BasSection {
+        height: 1200px;
+        flex-direction: column;
+    }
+    .Bloc {
+        margin: auto;
+        width: 480px;
+    }
+    .Bloc4 {
+        margin: auto;
+        width: 480px;
+    }
+    #bandetextebloc1 {
+        width: 100%;
+    }
+    .sous a {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    #textebandebloc1 {
+        text-align: right;
+        padding-right: 10px;
+    }
+    #textebandebloc2 {
+        text-align: right;
+        padding-right: 10px;
+    }
+    #textebandebloc3 {
+        text-align: right;
+        padding-right: 10px;
+    }
+    footer p {
+        font-size: 11px;
+        padding-top: 30px;
+    }
+}
 
 
 /* Responsiv Mobile */
 
-@media(min-width: 415px) and (max-width :711px) {}
-
-@media(max-width: 415px) {}
+@media(max-width: 521px) {
+    body {
+        background-color: #ceced0;
+    }
+    .Logocpgd {
+        height: 30px;
+        margin-top: 50px;
+        padding-right: 20px;
+    }
+    .Seconnecter {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .Nouscontacter {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .BasHeader {
+        height: 150px;
+    }
+    .BasHeader li {
+        font-size: 13px;
+        padding-right: 10px;
+        height: 30px;
+    }
+    .BasHeader ul {
+        padding-top: 10px;
+        flex-direction: column;
+        padding-left: 5px;
+    }
+    .sous {
+        position: absolute;
+        left: 173px;
+        top: 90px;
+        padding-top: 5px;
+        width: 180px;
+        height: 143px;
+        background-color: whitesmoke;
+        margin-top: 30px;
+        padding-top: 10px;
+    }
+    .sous a {
+        text-decoration: none;
+        color: rgb(0, 32, 96);
+        margin-left: 10px;
+        padding-top: 20px;
+        font-size: 11px;
+    }
+    .responsiv {
+        display: flex;
+        flex-direction: column;
+    }
+    .Bloc1 {
+        position: initial;
+        margin-top: 50px;
+        width: 330px;
+        height: 500px;
+        background-color: #d7d9d6;
+    }
+    .Score {
+        font-size: 16px;
+    }
+    .Formulaire {
+        margin-left: 5%;
+        margin-top: 16%;
+        margin-right: 5%;
+        font-size: 13px;
+    }
+    .Formulaire p {
+        text-align: center;
+    }
+    .BoutonValider {
+        margin-left: 130px;
+    }
+    .responsivnom {
+        position: relative;
+        right: 20px;
+    }
+    .responsivprenom {
+        position: relative;
+        right: 20px;
+    }
+    .responsivdossier {
+        position: relative;
+        right: 20px;
+    }
+    .responsividentifiant {
+        position: relative;
+        right: 20px;
+    }
+    .responsivemail {
+        position: relative;
+        right: 30px;
+    }
+    input {
+        width: 100px;
+    }
+    .MiddleSectionBas {
+        background-position: top;
+        height: 650px;
+    }
+    .BasSection {
+        height: 1200px;
+        flex-direction: column;
+    }
+    .Bloc {
+        margin: auto;
+        width: 330px;
+        height: 330px;
+        margin-top: 1px;
+    }
+    .Bloc4 {
+        margin: auto;
+        width: 330px;
+        height: 330px;
+        margin-top: 1px;
+    }
+    #bandetextebloc1 {
+        width: 100%;
+    }
+    #textebandebloc1 {
+        text-align: right;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #textebandebloc2 {
+        text-align: right;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #textebandebloc3 {
+        text-align: right;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    footer p {
+        font-size: 10px;
+        padding-top: 30px;
+    }
+    footer a:hover {
+        border-bottom: none;
+    }
+}
