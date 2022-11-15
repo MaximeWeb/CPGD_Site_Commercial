@@ -168,20 +168,17 @@ nav>ul li:hover .sous {
 
 .ImageAltares {
     height: 100px;
-    width: 400px;
     background-image: url(Image/Capture.PNG);
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 80px;
 }
 
 .ImageIntuiz {
     height: 100px;
-    width: 400px;
     background-image: url(Image/LogoIntuiz.png);
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 90px;
+    margin-left: 30px;
     margin-top: 160px;
 }
 
@@ -486,10 +483,9 @@ footer a:hover {
         padding-left: 2%;
     }
     .ImageAltares {
-        margin-left: 140px;
+        margin: auto;
     }
     .ImageIntuiz {
-        margin-left: 140px;
         margin-top: 200px;
     }
     .BlocDroite {
@@ -571,10 +567,9 @@ footer a:hover {
         padding-left: 2%;
     }
     .ImageAltares {
-        margin-left: 40px;
+        margin: auto;
     }
     .ImageIntuiz {
-        margin-left: 40px;
         margin-top: 180px;
     }
     .BlocDroite {
@@ -631,6 +626,7 @@ footer a:hover {
 
 @media(max-width: 521px) {
     body {
+        width: auto;
         background-color: #ceced0;
     }
     .Logocpgd {
@@ -685,32 +681,30 @@ footer a:hover {
         position: initial;
         width: 330px;
         height: 530px;
-        margin: auto;
         background-color: #5794a6;
+        margin: auto;
     }
     .BlocGauche p strong {
         padding-left: 2%;
     }
     .ImageAltares {
-        margin-left: 0px;
-        position: relative;
-        right: 40px;
+        margin: auto;
     }
     .ImageIntuiz {
-        margin-left: 40px;
-        margin-top: 180px;
+        margin-top: 170px;
     }
     .BlocDroite {
         position: initial;
         width: 330px;
         height: 430px;
-        margin: auto;
         background-color: #d7d9d6;
+        margin: auto;
     }
     .MiddleSectionBas {
-        background-position: top;
+        background-position: center;
         height: 1200px;
         flex-direction: column;
+        justify-content: none;
     }
     .BasSection {
         height: 1200px;
@@ -746,9 +740,12 @@ footer a:hover {
         padding-right: 10px;
         padding-left: 10px;
     }
+    footer {
+        flex-direction: column;
+    }
     footer p {
-        font-size: 10px;
-        padding-top: 30px;
+        font-size: 11px;
+        padding-top: 10px;
     }
     footer a:hover {
         border-bottom: none;
