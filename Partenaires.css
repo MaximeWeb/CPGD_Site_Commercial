@@ -229,7 +229,14 @@ nav>ul li:hover .sous {
 .ImagePartenaire {
     margin-bottom: 40px;
     margin-top: 40px;
-    height: 37px;
+    height: 50px;
+    width: 88px;
+}
+
+.ImagePartenaire2 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height: 30px;
     width: 88px;
 }
 
@@ -276,7 +283,7 @@ nav>ul li:hover .sous {
 .Imagebloc1 {
     height: 150px;
     width: 100%;
-    background-image: url(Image/Imagepuzzle.jpg);
+    background-image: url(Image/ImagePuzzle.jpg);
     background-position: center;
     padding-top: 5px;
     border-top-right-radius: 10px;

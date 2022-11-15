@@ -146,16 +146,14 @@ footer a:hover {
         margin-left: 30px;
     }
     section {
-        height: 310px;
+        height: 208px;
     }
-    section ul {
-        float: none;
-        margin-left: 16%;
+    section li {
+        width: 150px;
+        padding: auto;
     }
-    .ResponsivTabletteLI {
-        position: relative;
-        top: 100px;
-        right: 660px;
+    li p {
+        font-size: 13px;
     }
 }
 
@@ -171,16 +169,15 @@ footer a:hover {
         margin-left: 30px;
     }
     section {
-        height: 310px;
+        height: 206px;
     }
-    section ul {
-        float: none;
-        margin-left: 10%;
+    section li {
+        width: 135px;
+        padding: auto;
     }
-    .ResponsivTabletteLI {
-        position: relative;
-        top: 100px;
-        right: 660px;
+    li p {
+        font-size: 11px;
+        padding-top: 15px;
     }
 }
 
@@ -196,18 +193,17 @@ footer a:hover {
         margin-left: 30px;
     }
     section {
-        height: 310px;
-    }
-    section ul {
-        float: none;
+        height: 205px;
     }
     section li {
-        width: 170px;
+        width: 105px;
     }
-    .ResponsivTabletteLI {
-        position: relative;
-        top: 100px;
-        right: 590px;
+    li p {
+        font-size: 10px;
+        padding-top: 15px;
+    }
+    .paddingonglet {
+        padding-top: 10px;
     }
 }
 
@@ -254,6 +250,9 @@ footer a:hover {
         float: none;
         margin-left: 28%;
         margin-top: 10%;
+    }
+    .FondInverse {
+        background: linear-gradient(135deg, rgb(0, 32, 96), 80%, white);
     }
     footer {
         flex-direction: column;
@@ -308,6 +307,9 @@ footer a:hover {
         float: none;
         margin-left: 10%;
         margin-top: 10%;
+    }
+    .FondInverse {
+        background: linear-gradient(135deg, rgb(0, 32, 96), 80%, white);
     }
     footer {
         flex-direction: column;
