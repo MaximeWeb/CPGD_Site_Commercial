@@ -205,12 +205,16 @@ footer a:hover {
     .paddingonglet {
         padding-top: 10px;
     }
+    footer p {
+        padding-top: 40px;
+        font-size: 13px;
+    }
 }
 
 
 /* Responsiv Mobile */
 
-@media(min-width: 412px) and (max-width :711px) {
+@media(min-width: 415px) and (max-width :711px) {
     body {
         width: auto;
         margin: 0%;
@@ -267,7 +271,7 @@ footer a:hover {
     }
 }
 
-@media(max-width: 411px) {
+@media(max-width: 415px) {
     body {
         width: auto;
         margin: 0%;
@@ -305,7 +309,7 @@ footer a:hover {
     section ul {
         flex-direction: column;
         float: none;
-        margin-left: 10%;
+        margin-left: 13%;
         margin-top: 10%;
     }
     .FondInverse {
