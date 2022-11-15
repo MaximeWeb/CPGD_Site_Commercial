@@ -681,15 +681,35 @@ footer a:hover {
         display: flex;
         flex-direction: column;
     }
-    .Bloc1 {
+    .BlocGauche {
         position: initial;
-        margin-top: 50px;
         width: 330px;
-        height: 1100px;
+        height: 530px;
+        margin: auto;
+        background-color: #5794a6;
+    }
+    .BlocGauche p strong {
+        padding-left: 2%;
+    }
+    .ImageAltares {
+        margin-left: 0px;
+        position: relative;
+        right: 40px;
+    }
+    .ImageIntuiz {
+        margin-left: 40px;
+        margin-top: 180px;
+    }
+    .BlocDroite {
+        position: initial;
+        width: 330px;
+        height: 430px;
+        margin: auto;
+        background-color: #d7d9d6;
     }
     .MiddleSectionBas {
         background-position: top;
-        height: 1250px;
+        height: 1200px;
         flex-direction: column;
     }
     .BasSection {
