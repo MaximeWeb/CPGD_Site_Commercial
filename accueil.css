@@ -239,6 +239,7 @@ footer a:hover {
     .BlocConnectezvous {
         margin-left: 5px;
         width: 150px;
+        display: none;
     }
     .Connectezvous {
         font-size: 11px;
@@ -252,11 +253,12 @@ footer a:hover {
         margin: auto;
     }
     .ImageNavDroite strong {
-        font-size: 14px;
+        font-size: 13px;
     }
     .ImagePaiement {
         position: relative;
-        top: 50px;
+        top: 2px;
+        left: 250px;
     }
     .ImagePaiementTop {
         width: 80px;
@@ -266,8 +268,7 @@ footer a:hover {
         width: 100px;
     }
     section {
-        height: 120px;
-        background-color: whitesmoke;
+        height: 130px;
     }
     section ul {
         flex-direction: column;
