@@ -1,0 +1,624 @@
+body {
+    margin: 0;
+    font-family: verdana;
+}
+
+.TopHeader {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid rgb(139, 164, 212);
+    background-color: whitesmoke;
+}
+
+.Logocpgd {
+    margin-top: 10px;
+    height: 100px;
+    padding-right: 190px;
+}
+
+.TexteTopHeader {
+    display: flex;
+    margin-top: 10px;
+}
+
+.Nouscontacter {
+    padding-right: 30px;
+    color: rgb(0, 32, 96);
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.Seconnecter {
+    color: rgb(0, 32, 96);
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgb(0, 32, 96);
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.Seconnecter:hover {
+    background: linear-gradient(to bottom right, rgb(0, 32, 96), whitesmoke);
+    color: whitesmoke;
+}
+
+.Nouscontacter:hover {
+    color: rgb(161, 77, 7);
+}
+
+.TopHeader a {
+    text-decoration: none;
+}
+
+.cadreconnection {
+    border: 1px solid rgb(0, 32, 96);
+    height: 65px;
+    width: 200px;
+}
+
+.BasHeader {
+    padding-top: 1px;
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid rgb(139, 164, 212);
+    background: linear-gradient(to bottom right, rgb(0, 32, 96), whitesmoke);
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.BasHeader ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 33px;
+}
+
+.BasHeader li {
+    padding-right: 50px;
+    font-size: 20px;
+    height: 100px;
+    color: whitesmoke;
+}
+
+li:hover {
+    color: rgb(161, 77, 7);
+}
+
+nav>ul li:hover .sous {
+    display: block;
+}
+
+.sous {
+    display: none;
+    position: absolute;
+    left: 0px;
+    padding-top: 5px;
+    width: 100%;
+    height: 70px;
+    padding-left: 0px;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.sous a {
+    text-decoration: none;
+    color: rgb(0, 32, 96);
+    margin-left: 70px;
+}
+
+.sous a:hover {
+    color: rgb(161, 77, 7);
+}
+
+.imagecpgd {
+    height: 98px;
+    width: 120px;
+    float: right;
+    margin-right: 20px;
+}
+
+
+/* Middle Section */
+
+.MiddleSectionBas {
+    height: 750px;
+    width: 100%;
+    background-image: url(Image/FlecheMenu1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding-top: 1px;
+}
+
+.MiddleSectionBas p {
+    padding-left: 20px;
+}
+
+.MiddleSectionBas strong {
+    font-size: 18px;
+    color: rgb(0, 32, 96);
+}
+
+
+/* Bas Section */
+
+.BasSection {
+    height: 430px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    background: linear-gradient(to bottom right, rgb(0, 32, 96), whitesmoke);
+}
+
+.Bloc {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgb(0, 32, 96);
+    background-color: whitesmoke;
+    margin-top: 60px;
+    transform: scale(1);
+    transition: transform 400ms;
+}
+
+.Bloc:hover {
+    transform: scale(1.10);
+}
+
+.Bloc a {
+    text-decoration: none;
+    color: black;
+}
+
+.Imagebloc1 {
+    height: 150px;
+    width: 100%;
+    background-image: url(Image/ImagePuzzle.jpg);
+    background-position: center;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Risk {
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(0, 32, 96);
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+}
+
+#bandetextebloc1 {
+    width: 400px;
+    height: 25px;
+    margin-top: 104px;
+}
+
+#textebandebloc1 {
+    height: 22px;
+    padding-left: 220px;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.8);
+}
+
+.textebloc1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+/* bloc 2 */
+
+.Imagebloc2 {
+    height: 150px;
+    width: 100%;
+    background-image: url(Image/Reunion.jpg);
+    background-position: center;
+    background-size: 102%;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Accesclient {
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(0, 32, 96);
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+}
+
+#bandetextebloc2 {
+    width: 400px;
+    height: 25px;
+    margin-top: 104px;
+}
+
+#textebandebloc2 {
+    height: 22px;
+    padding-left: 200px;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.8);
+}
+
+.textebloc2 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+/* Bloc 3 */
+
+.Imagebloc3 {
+    height: 150px;
+    width: 100%;
+    background-image: url(Image/cb.png);
+    background-position: center;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Creance {
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(0, 32, 96);
+    color: whitesmoke;
+    border-top-left-radius: 10px;
+}
+
+#bandetextebloc3 {
+    width: 400px;
+    height: 25px;
+    margin-top: 104px;
+}
+
+#textebandebloc3 {
+    height: 22px;
+    padding-left: 170px;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.8);
+}
+
+.textebloc3 {
+    text-align: center;
+}
+
+.Dernieresection {
+    height: 300px;
+    width: 100%;
+    background-image: url(Image/paysage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding-top: 20px;
+}
+
+.Dernieresection p {
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: whitesmoke;
+    padding-top: 1px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    padding-top: 20px;
+}
+
+footer a {
+    color: black;
+    text-decoration-line: none;
+}
+
+footer a:hover {
+    color: rgb(0, 32, 96);
+    border-bottom: 2px solid rgb(0, 32, 96);
+    height: 60px;
+}
+
+
+/* Responsiv TABLETTE */
+
+@media(min-width: 1220px) and (max-width :1366px) {
+    .Bloc4 {
+        margin-left: 0px;
+    }
+}
+
+@media(min-width:767px) and (max-width :1220px) {
+    body {
+        background-color: #ceced0;
+    }
+    .Logocpgd {
+        height: 80px;
+        margin-top: 20px;
+    }
+    .Seconnecter {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .Nouscontacter {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .BasHeader li {
+        font-size: 15px;
+        padding-right: 40px;
+    }
+    .sous a {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .Bloc1 {
+        position: initial;
+        width: 100%;
+        height: 90px;
+    }
+    .Imagebloc {
+        height: 140px;
+        width: 100%;
+        background-image: url(Image/Imagefleche2.jpg);
+        background-position: center;
+        margin-top: 0px;
+    }
+    .TextBloc {
+        margin-top: 90px;
+    }
+    .MiddleSectionBas {
+        background-position: top;
+        height: 850px;
+    }
+    .BasSection {
+        height: 1200px;
+        flex-direction: column;
+    }
+    .Bloc {
+        margin: auto;
+        width: 700px;
+    }
+    .Bloc4 {
+        margin: auto;
+        width: 700px;
+    }
+    #bandetextebloc1 {
+        width: 100%;
+    }
+    #textebandebloc1 {
+        text-align: right;
+        padding-right: 10px;
+    }
+    #textebandebloc2 {
+        text-align: right;
+        padding-right: 10px;
+    }
+    #textebandebloc3 {
+        text-align: right;
+        padding-right: 10px;
+    }
+    footer p {
+        font-size: 14px;
+        padding-top: 30px;
+    }
+}
+
+@media(min-width:521px) and (max-width :767px) {
+    body {
+        background-color: #ceced0;
+    }
+    .Logocpgd {
+        height: 60px;
+        margin-top: 30px;
+        padding-right: 20px;
+    }
+    .Seconnecter {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .Nouscontacter {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .BasHeader {
+        height: 100px;
+    }
+    .BasHeader li {
+        font-size: 13px;
+        padding-right: 15px;
+    }
+    .Bloc1 {
+        position: initial;
+        width: 100%;
+        height: 90px;
+    }
+    .Imagebloc {
+        height: 140px;
+        width: 100%;
+        background-image: url(Image/Imagefleche2.jpg);
+        background-position: center;
+        margin-top: 0px;
+    }
+    .TextBloc {
+        margin-top: 90px;
+    }
+    .MiddleSectionBas {
+        background-position: top;
+        height: 900px;
+    }
+    .BasSection {
+        height: 1200px;
+        flex-direction: column;
+    }
+    .Bloc {
+        margin: auto;
+        width: 480px;
+    }
+    .Bloc4 {
+        margin: auto;
+        width: 480px;
+    }
+    #bandetextebloc1 {
+        width: 100%;
+    }
+    .sous a {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    #textebandebloc1 {
+        text-align: right;
+        padding-right: 10px;
+    }
+    #textebandebloc2 {
+        text-align: right;
+        padding-right: 10px;
+    }
+    #textebandebloc3 {
+        text-align: right;
+        padding-right: 10px;
+    }
+    footer p {
+        font-size: 11px;
+        padding-top: 30px;
+    }
+}
+
+
+/* Responsiv Mobile */
+
+@media(max-width: 521px) {
+    body {
+        background-color: #ceced0;
+    }
+    .Logocpgd {
+        height: 30px;
+        margin-top: 50px;
+        padding-right: 20px;
+    }
+    .Seconnecter {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .Nouscontacter {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .BasHeader {
+        height: 150px;
+    }
+    .BasHeader li {
+        font-size: 13px;
+        padding-right: 10px;
+        height: 30px;
+    }
+    .BasHeader ul {
+        padding-top: 10px;
+        flex-direction: column;
+        padding-left: 5px;
+    }
+    .sous {
+        position: absolute;
+        left: 173px;
+        top: 90px;
+        padding-top: 5px;
+        width: 180px;
+        height: 143px;
+        background-color: whitesmoke;
+        margin-top: 30px;
+        padding-top: 10px;
+    }
+    .sous a {
+        text-decoration: none;
+        color: rgb(0, 32, 96);
+        margin-left: 10px;
+        padding-top: 20px;
+        font-size: 11px;
+    }
+    .responsiv {
+        display: flex;
+        flex-direction: column;
+    }
+    .Bloc1 {
+        position: initial;
+        width: 100%;
+        height: 90px;
+    }
+    .Imagebloc {
+        height: 140px;
+        width: 100%;
+        background-image: url(Image/Imagefleche2.jpg);
+        background-position: center;
+        margin-top: 0px;
+    }
+    .TextBloc {
+        margin-top: 90px;
+    }
+    .MiddleSectionBas {
+        background-position: top;
+        height: 1200px;
+    }
+    .BasSection {
+        height: 1200px;
+        flex-direction: column;
+    }
+    .Bloc {
+        margin: auto;
+        width: 330px;
+        height: 330px;
+        margin-top: 1px;
+    }
+    .Bloc4 {
+        margin: auto;
+        width: 330px;
+        height: 330px;
+        margin-top: 1px;
+    }
+    #bandetextebloc1 {
+        width: 100%;
+    }
+    #textebandebloc1 {
+        text-align: right;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #textebandebloc2 {
+        text-align: right;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #textebandebloc3 {
+        text-align: right;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer p {
+        font-size: 11px;
+        padding-top: 10px;
+    }
+    footer a:hover {
+        border-bottom: none;
+    }
+}
