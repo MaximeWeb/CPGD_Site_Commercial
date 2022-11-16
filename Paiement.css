@@ -193,6 +193,10 @@ nav>ul li:hover .sous {
     margin-left: 200px;
 }
 
+input {
+    background-color: whitesmoke;
+}
+
 
 /* Bas Section */
 
@@ -703,6 +707,7 @@ footer a:hover {
     }
     input {
         width: 100px;
+        background-color: whitesmoke;
     }
     .MiddleSectionBas {
         background-position: top;
