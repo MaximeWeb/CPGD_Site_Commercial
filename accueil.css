@@ -162,6 +162,9 @@ footer a:hover {
         width: auto;
         background-image: url(Image/FlecheMenu2.png);
     }
+    .LogoCpgd {
+        height: 80px;
+    }
     .ImageNavDroite {
         margin-left: 5%
     }
@@ -169,7 +172,7 @@ footer a:hover {
         margin-left: 30px;
     }
     section {
-        height: 206px;
+        height: 196px;
     }
     section li {
         width: 135px;
@@ -179,12 +182,19 @@ footer a:hover {
         font-size: 11px;
         padding-top: 15px;
     }
+    footer p {
+        padding-top: 60px;
+        font-size: 14px;
+    }
 }
 
-@media(min-width: 712px) and (max-width :960px) {
+@media(min-width: 730px) and (max-width :960px) {
     body {
         width: auto;
         background-image: url(Image/FlecheMenu2.png);
+    }
+    .LogoCpgd {
+        height: 60px;
     }
     .ImageNavDroite {
         margin-left: 5%
@@ -193,7 +203,7 @@ footer a:hover {
         margin-left: 30px;
     }
     section {
-        height: 205px;
+        height: 175px;
     }
     section li {
         width: 105px;
@@ -206,7 +216,7 @@ footer a:hover {
         padding-top: 10px;
     }
     footer p {
-        padding-top: 40px;
+        padding-top: 100px;
         font-size: 13px;
     }
 }
@@ -214,11 +224,14 @@ footer a:hover {
 
 /* Responsiv Mobile */
 
-@media(min-width: 415px) and (max-width :711px) {
+@media(max-width :730px) {
     body {
         width: auto;
         margin: 0%;
         background-image: url(Image/FlecheMenu2.png);
+    }
+    .LogoCpgd {
+        height: 60px;
     }
     header {
         justify-content: safe;
@@ -228,96 +241,51 @@ footer a:hover {
         width: 150px;
     }
     .Connectezvous {
-        font-size: 13px;
+        font-size: 11px;
         margin-left: 10px;
     }
     .Connectezvous2 {
         width: 150px;
+        font-size: 13px;
     }
     .ImageNavDroite {
         margin: auto;
     }
-    .ImagePaiement {
-        position: relative;
-        top: 50px;
-    }
-    .ImagePaiementTop {
-        width: 90px;
-        margin-left: 15px;
-    }
-    section {
-        height: 170px;
-        background-color: whitesmoke;
-    }
-    section ul {
-        flex-direction: column;
-        float: none;
-        margin-left: 28%;
-        margin-top: 10%;
-    }
-    .FondInverse {
-        background: linear-gradient(135deg, rgb(0, 32, 96), 80%, white);
-    }
-    footer {
-        flex-direction: column;
-        margin-top: 450px;
+    .ImageNavDroite strong {
         font-size: 14px;
-        background-color: rgb(0, 32, 96);
-        padding-top: 5%;
-        color: whitesmoke;
-    }
-    footer a {
-        color: whitesmoke;
-    }
-}
-
-@media(max-width: 415px) {
-    body {
-        width: auto;
-        margin: 0%;
-        background-image: url(Image/FlecheMenu2.png);
-    }
-    header {
-        justify-content: safe;
-    }
-    .BlocConnectezvous {
-        margin-left: 5px;
-        width: 150px;
-    }
-    .Connectezvous {
-        font-size: 13px;
-        margin-left: 10px;
-    }
-    .Connectezvous2 {
-        width: 150px;
-    }
-    .ImageNavDroite {
-        margin: auto;
     }
     .ImagePaiement {
         position: relative;
         top: 50px;
     }
     .ImagePaiementTop {
-        width: 90px;
-        margin-left: 15px;
+        width: 80px;
+        margin-left: 10px;
+    }
+    .ImagePaiementBottom {
+        width: 100px;
     }
     section {
-        height: 170px;
+        height: 120px;
         background-color: whitesmoke;
     }
     section ul {
         flex-direction: column;
         float: none;
-        margin-left: 13%;
-        margin-top: 10%;
+        margin-top: 30px;
+        margin-right: 50px;
+        ;
+    }
+    section li {
+        margin: auto;
+        position: initial;
     }
     .FondInverse {
         background: linear-gradient(135deg, rgb(0, 32, 96), 80%, white);
     }
     footer {
         flex-direction: column;
-        margin-top: 450px;
+        margin-top: 520px;
         font-size: 14px;
         background-color: rgb(0, 32, 96);
         padding-top: 5%;
