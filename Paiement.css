@@ -682,6 +682,9 @@ footer a:hover {
     .Formulaire p {
         text-align: center;
     }
+    .responsivbloc1 {
+        text-align: justify;
+    }
     .BoutonValider {
         margin-left: 130px;
     }
@@ -708,6 +711,9 @@ footer a:hover {
     input {
         width: 100px;
         background-color: whitesmoke;
+    }
+    .responsivbloc {
+        width: 30px;
     }
     .MiddleSectionBas {
         background-position: top;
