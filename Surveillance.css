@@ -609,9 +609,7 @@ footer a:hover {
         width: 330px;
         height: auto;
         margin-bottom: 40px;
-    }
-    nav>ul li:active .sous {
-        display: block;
+        padding-bottom: 30px;
     }
     .MiddleSectionBas {
         background-position: top;
