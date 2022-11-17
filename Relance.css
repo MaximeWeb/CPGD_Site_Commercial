@@ -597,7 +597,8 @@ footer a:hover {
         position: initial;
         margin-top: 50px;
         width: 330px;
-        height: 950px;
+        height: auto;
+        margin-bottom: 30px;
     }
     .MiddleSectionBas {
         background-position: top;
