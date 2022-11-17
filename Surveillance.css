@@ -607,13 +607,12 @@ footer a:hover {
         position: initial;
         margin-top: 50px;
         width: 330px;
-        height: auto;
+        height: 1200px;
         margin-bottom: 40px;
-        padding-bottom: 100px;
     }
     .MiddleSectionBas {
         background-position: top;
-        height: 1250px;
+        height: 1300px;
     }
     .BasSection {
         height: 1200px;
