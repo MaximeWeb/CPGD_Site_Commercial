@@ -267,7 +267,7 @@ footer a:hover {
     }
     section {
         height: 130px;
-        background: linear-gradient(to right, rgb(0, 32, 96), 20%, white, rgb(0, 32, 96));
+        background: linear-gradient(to left, rgb(0, 32, 96), 17%, white, rgb(0, 32, 96));
     }
     section ul {
         flex-direction: column;
