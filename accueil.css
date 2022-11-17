@@ -231,6 +231,7 @@ footer a:hover {
         width: auto;
         margin: 0%;
         background-image: url(Image/FlecheMenu2.png);
+        background-size: auto;
     }
     .LogoCpgd {
         height: 60px;
