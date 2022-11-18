@@ -234,9 +234,6 @@ footer a:hover {
     .LogoCpgd {
         height: 60px;
     }
-    header {
-        justify-content: safe;
-    }
     .BlocConnectezvous {
         display: none;
     }
