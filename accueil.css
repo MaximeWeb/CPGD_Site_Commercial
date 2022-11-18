@@ -150,7 +150,6 @@ footer a:hover {
     }
     section li {
         width: 150px;
-        padding: auto;
     }
     li p {
         font-size: 13px;
@@ -177,7 +176,6 @@ footer a:hover {
     }
     section li {
         width: 135px;
-        padding: auto;
     }
     li p {
         font-size: 11px;
@@ -240,8 +238,6 @@ footer a:hover {
         justify-content: safe;
     }
     .BlocConnectezvous {
-        margin-left: 5px;
-        width: 150px;
         display: none;
     }
     .Connectezvous {
