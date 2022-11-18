@@ -457,23 +457,23 @@ footer a:hover {
     }
     .responsivnom {
         position: relative;
-        left: 10px;
+        left: 15px;
     }
     .responsivprenom {
         position: relative;
-        left: 10px;
+        left: 15px;
     }
     .responsivdossier {
         position: relative;
-        left: 10px;
+        left: 15px;
     }
     .responsividentifiant {
         position: relative;
-        left: 10px;
+        left: 15px;
     }
     .responsivemail {
         position: relative;
-        left: 10px;
+        left: 15px;
     }
     .BoutonValider {
         margin-left: 200px;
@@ -574,23 +574,23 @@ footer a:hover {
     }
     .responsivnom {
         position: relative;
-        left: 14px;
+        left: 13px;
     }
     .responsivprenom {
         position: relative;
-        left: 14px;
+        left: 13px;
     }
     .responsivdossier {
         position: relative;
-        left: 14px;
+        left: 13px;
     }
     .responsividentifiant {
         position: relative;
-        left: 14px;
+        left: 13px;
     }
     .responsivemail {
         position: relative;
-        left: 14px;
+        left: 13px;
     }
     .MiddleSectionBas {
         background-position: top;
@@ -692,7 +692,7 @@ footer a:hover {
         position: initial;
         margin-top: 50px;
         width: 330px;
-        height: 500px;
+        height: 600px;
         background-color: #d7d9d6;
     }
     .Score {
@@ -707,41 +707,44 @@ footer a:hover {
     .Formulaire p {
         text-align: center;
     }
-    .responsivbloc1 {
-        text-align: justify;
-    }
     .BoutonValider {
         margin-left: 130px;
     }
     .responsivnom {
         position: relative;
-        right: 20px;
+        right: 26px;
     }
     .responsivprenom {
         position: relative;
-        right: 20px;
+        right: 23px;
     }
     .responsivdossier {
         position: relative;
-        right: 20px;
+        right: 21px;
     }
     .responsividentifiant {
         position: relative;
-        right: 20px;
+        right: 21px;
     }
     .responsivemail {
         position: relative;
-        right: 30px;
+        right: 33px;
     }
     p input {
         width: 100px;
+        margin: auto;
     }
     .responsivbloc {
-        width: 30px;
+        width: 10px;
+    }
+    .responsivbloc1 {
+        margin-top: 40px;
     }
     .BoutonValider {
         height: 40px;
         width: 100px;
+        margin-top: 20px;
+        margin-left: 110px;
     }
     .MiddleSectionBas {
         background-position: top;
