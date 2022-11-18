@@ -431,6 +431,7 @@ footer a:hover {
         width: 700px;
         height: 550px;
         background-color: #d7d9d6;
+        background-size: 110%;
     }
     .Formulaire {
         margin-left: 15%;
@@ -545,6 +546,7 @@ footer a:hover {
         width: 480px;
         height: 510px;
         background-color: #d7d9d6;
+        background-size: 150%;
     }
     .Score {
         font-size: 17px;
@@ -682,6 +684,8 @@ footer a:hover {
         width: 330px;
         height: 600px;
         background-color: #d7d9d6;
+        background-size: 200%;
+        background-position: right;
     }
     .Score {
         font-size: 16px;
