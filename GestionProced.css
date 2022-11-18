@@ -235,13 +235,13 @@ nav>ul li:hover .sous {
     border-top-left-radius: 10px;
 }
 
-#bandetextebloc1 {
+.bandetextebloc1 {
     width: 400px;
     height: 25px;
     margin-top: 104px;
 }
 
-#textebandebloc1 {
+.textebandebloc1 {
     height: 22px;
     padding-left: 220px;
     color: white;
@@ -275,13 +275,7 @@ nav>ul li:hover .sous {
     border-top-left-radius: 10px;
 }
 
-#bandetextebloc2 {
-    width: 400px;
-    height: 25px;
-    margin-top: 104px;
-}
-
-#textebandebloc2 {
+.textebandebloc2 {
     height: 22px;
     padding-left: 200px;
     color: white;
@@ -314,13 +308,7 @@ nav>ul li:hover .sous {
     border-top-left-radius: 10px;
 }
 
-#bandetextebloc3 {
-    width: 400px;
-    height: 25px;
-    margin-top: 104px;
-}
-
-#textebandebloc3 {
+.textebandebloc3 {
     height: 22px;
     padding-left: 170px;
     color: white;
@@ -444,18 +432,18 @@ footer a:hover {
         margin: auto;
         width: 700px;
     }
-    #bandetextebloc1 {
+    .bandetextebloc1 {
         width: 100%;
     }
-    #textebandebloc1 {
+    .textebandebloc1 {
         text-align: right;
         padding-right: 10px;
     }
-    #textebandebloc2 {
+    .textebandebloc2 {
         text-align: right;
         padding-right: 10px;
     }
-    #textebandebloc3 {
+    .textebandebloc3 {
         text-align: right;
         padding-right: 10px;
     }
@@ -520,22 +508,22 @@ footer a:hover {
         margin: auto;
         width: 480px;
     }
-    #bandetextebloc1 {
+    .bandetextebloc1 {
         width: 100%;
     }
     .sous a {
         margin-left: 20px;
         font-size: 12px;
     }
-    #textebandebloc1 {
+    .textebandebloc1 {
         text-align: right;
         padding-right: 10px;
     }
-    #textebandebloc2 {
+    .textebandebloc2 {
         text-align: right;
         padding-right: 10px;
     }
-    #textebandebloc3 {
+    .textebandebloc3 {
         text-align: right;
         padding-right: 10px;
     }
@@ -635,20 +623,20 @@ footer a:hover {
         height: 330px;
         margin-top: 1px;
     }
-    #bandetextebloc1 {
+    .bandetextebloc1 {
         width: 100%;
     }
-    #textebandebloc1 {
+    .textebandebloc1 {
         text-align: right;
         padding-right: 10px;
         padding-left: 10px;
     }
-    #textebandebloc2 {
+    .textebandebloc2 {
         text-align: right;
         padding-right: 10px;
         padding-left: 10px;
     }
-    #textebandebloc3 {
+    .textebandebloc3 {
         text-align: right;
         padding-right: 10px;
         padding-left: 10px;
