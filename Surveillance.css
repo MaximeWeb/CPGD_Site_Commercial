@@ -127,7 +127,7 @@ nav>ul li:hover .sous {
 .MiddleSectionBas {
     height: 730px;
     width: 100%;
-    background-image: url(Image/ImageArrierePlan2.jpg);
+    background-image: url(Image/ImageArrierePlan2.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -178,7 +178,7 @@ nav>ul li:hover .sous {
 .Imagebloc {
     height: 220px;
     width: 100%;
-    background-image: url(Image/ImagePuzzle.jpg);
+    background-image: url(Image/ImagePuzzle.webp);
     background-position: center;
     padding-top: 5px;
     border-top-right-radius: 10px;
@@ -253,7 +253,7 @@ nav>ul li:hover .sous {
 .Imagebloc1 {
     height: 150px;
     width: 100%;
-    background-image: url(Image/Imagefleche2.jpg);
+    background-image: url(Image/Imagefleche2.webp);
     background-position: center;
     padding-top: 5px;
     border-top-right-radius: 10px;
@@ -292,7 +292,7 @@ nav>ul li:hover .sous {
 .Imagebloc2 {
     height: 150px;
     width: 100%;
-    background-image: url(Image/Reunion.jpg);
+    background-image: url(Image/Reunion.webp);
     background-position: center;
     background-size: 102%;
     padding-top: 5px;
@@ -326,7 +326,7 @@ nav>ul li:hover .sous {
 .Imagebloc3 {
     height: 150px;
     width: 100%;
-    background-image: url(Image/cb.png);
+    background-image: url(Image/cb.webp);
     background-position: center;
     padding-top: 5px;
     border-top-right-radius: 10px;
@@ -350,23 +350,6 @@ nav>ul li:hover .sous {
 
 .textebloc3 {
     text-align: center;
-}
-
-.Dernieresection {
-    height: 300px;
-    width: 100%;
-    background-image: url(Image/paysage.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    padding-top: 20px;
-}
-
-.Dernieresection p {
-    text-align: center;
-    font-size: 26px;
-    color: white;
-    font-weight: bold;
 }
 
 h1 {
@@ -477,7 +460,7 @@ footer a:hover {
     }
 }
 
-@media(min-width:521px) and (max-width :767px) {
+@media(min-width:587px) and (max-width :767px) {
     body {
         background-color: #ceced0;
     }
@@ -551,7 +534,7 @@ footer a:hover {
 
 /* Responsiv Mobile */
 
-@media(max-width: 521px) {
+@media(max-width: 587px) {
     body {
         background-color: #ceced0;
     }
@@ -611,7 +594,8 @@ footer a:hover {
         margin-bottom: 40px;
     }
     .MiddleSectionBas {
-        background-position: top;
+        background-size: auto;
+        background-position: center;
         height: 1350px;
     }
     .BasSection {

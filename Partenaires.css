@@ -127,7 +127,7 @@ nav>ul li:hover .sous {
 .MiddleSectionBas {
     height: 700px;
     width: 100%;
-    background-image: url(Image/ImageArrierePlan2.jpg);
+    background-image: url(Image/ImageArrierePlan2.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -143,7 +143,7 @@ nav>ul li:hover .sous {
     margin-top: 50px;
     border-radius: 15px;
     background-color: whitesmoke;
-    background-image: url(Image/Imagefleche2.jpg);
+    background-image: url(Image/Imagefleche2.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 112%;
@@ -168,14 +168,14 @@ nav>ul li:hover .sous {
 
 .ImageAltares {
     height: 100px;
-    background-image: url(Image/Capture.PNG);
+    background-image: url(Image/Capture.webp);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .ImageIntuiz {
     height: 100px;
-    background-image: url(Image/LogoIntuiz.png);
+    background-image: url(Image/LogoIntuiz.webp);
     background-repeat: no-repeat;
     background-position: center;
     margin-left: 30px;
@@ -197,7 +197,7 @@ nav>ul li:hover .sous {
     margin-top: 50px;
     border-radius: 15px;
     background-color: whitesmoke;
-    background-image: url(Image/FlecheMenu1.png);
+    background-image: url(Image/FlecheMenu1.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 112%;
@@ -280,7 +280,7 @@ nav>ul li:hover .sous {
 .Imagebloc1 {
     height: 150px;
     width: 100%;
-    background-image: url(Image/ImagePuzzle.jpg);
+    background-image: url(Image/ImagePuzzle.webp);
     background-position: center;
     padding-top: 5px;
     border-top-right-radius: 10px;
@@ -319,7 +319,7 @@ nav>ul li:hover .sous {
 .Imagebloc2 {
     height: 150px;
     width: 100%;
-    background-image: url(Image/Reunion.jpg);
+    background-image: url(Image/Reunion.webp);
     background-position: center;
     background-size: 102%;
     padding-top: 5px;
@@ -353,7 +353,7 @@ nav>ul li:hover .sous {
 .Imagebloc3 {
     height: 150px;
     width: 100%;
-    background-image: url(Image/cb.png);
+    background-image: url(Image/cb.webp);
     background-position: center;
     padding-top: 5px;
     border-top-right-radius: 10px;
@@ -382,7 +382,7 @@ nav>ul li:hover .sous {
 .Dernieresection {
     height: 300px;
     width: 100%;
-    background-image: url(Image/paysage.jpg);
+    background-image: url(Image/paysage.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -520,7 +520,7 @@ footer a:hover {
     }
 }
 
-@media(min-width:521px) and (max-width :767px) {
+@media(min-width:587px) and (max-width :767px) {
     body {
         background-color: #ceced0;
     }
@@ -612,7 +612,7 @@ footer a:hover {
 
 /* Responsiv Mobile */
 
-@media(max-width: 521px) {
+@media(max-width: 587px) {
     body {
         width: auto;
         background-color: #ceced0;
@@ -689,6 +689,7 @@ footer a:hover {
         margin: auto;
     }
     .MiddleSectionBas {
+        background-size: auto;
         background-position: center;
         height: 1200px;
         flex-direction: column;
