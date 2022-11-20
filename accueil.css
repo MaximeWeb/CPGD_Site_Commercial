@@ -71,6 +71,7 @@ section {
 }
 
 .LogoCpgd {
+    width: 260px;
     height: 90px;
     margin-right: 40px;
 }
@@ -163,6 +164,7 @@ footer a:hover {
         background-size: auto;
     }
     .LogoCpgd {
+        width: 240px;
         height: 80px;
     }
     .ImageNavDroite {
@@ -194,6 +196,7 @@ footer a:hover {
         background-size: auto;
     }
     .LogoCpgd {
+        width: 200px;
         height: 60px;
     }
     .ImageNavDroite {
@@ -232,6 +235,8 @@ footer a:hover {
         background-size: auto;
     }
     .LogoCpgd {
+        margin-right: 30px;
+        width: 180px;
         height: 60px;
     }
     .BlocConnectezvous {
