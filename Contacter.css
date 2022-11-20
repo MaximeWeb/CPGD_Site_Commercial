@@ -176,7 +176,7 @@ nav>ul li:hover .sous {
 .Imagebloc {
     height: 220px;
     width: 100%;
-    background-image: url(Image/Imagepuzzle.webp);
+    background-image: url(Image/imagepuzzle.webp);
     background-position: center;
     padding-top: 5px;
     border-top-right-radius: 10px;
