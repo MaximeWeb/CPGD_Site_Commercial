@@ -1,1 +1,1 @@
-document.addEventListener('touchstart', ontouchstart, { passive: true });
+document.addEventListener('ontouchstart', onTouchStart, { passive: true });
